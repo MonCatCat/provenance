@@ -3,7 +3,7 @@ package keeper
 import (
 	"strings"
 
-	"github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 
 	abci "github.com/tendermint/tendermint/abci/types"
 

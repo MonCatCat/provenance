@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"math/rand"
 
-	rewardModule "github.com/provenance-io/provenance/x/reward"
-	cli "github.com/provenance-io/provenance/x/reward/client/cli"
-	"github.com/provenance-io/provenance/x/reward/keeper"
-	simulation "github.com/provenance-io/provenance/x/reward/simulation"
-	"github.com/provenance-io/provenance/x/reward/types"
+	rewardModule "github.com/MonCatCat/provenance/x/reward"
+	cli "github.com/MonCatCat/provenance/x/reward/client/cli"
+	"github.com/MonCatCat/provenance/x/reward/keeper"
+	simulation "github.com/MonCatCat/provenance/x/reward/simulation"
+	"github.com/MonCatCat/provenance/x/reward/types"
 
 	cerrs "cosmossdk.io/errors"
 	sdkclient "github.com/cosmos/cosmos-sdk/client"

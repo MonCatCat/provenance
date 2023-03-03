@@ -10,7 +10,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
 )
 
 // IsMarkerAndHasAuthority checks that the address is a marker addr and that one of the signers has the given role.

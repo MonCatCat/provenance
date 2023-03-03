@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"math/rand"
 
-	"github.com/provenance-io/provenance/x/msgfees/client/cli"
-	"github.com/provenance-io/provenance/x/msgfees/keeper"
-	"github.com/provenance-io/provenance/x/msgfees/simulation"
-	"github.com/provenance-io/provenance/x/msgfees/types"
+	"github.com/MonCatCat/provenance/x/msgfees/client/cli"
+	"github.com/MonCatCat/provenance/x/msgfees/keeper"
+	"github.com/MonCatCat/provenance/x/msgfees/simulation"
+	"github.com/MonCatCat/provenance/x/msgfees/types"
 
 	cerrs "cosmossdk.io/errors"
 	sdkclient "github.com/cosmos/cosmos-sdk/client"

@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/provenance-io/provenance/x/reward/types"
+	"github.com/MonCatCat/provenance/x/reward/types"
 )
 
 // ClaimRewards for a given address and a given reward program id

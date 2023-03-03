@@ -6,8 +6,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/gogo/protobuf/proto"
 
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	"github.com/provenance-io/provenance/x/metadata/types"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 // IterateScopes processes all stored scopes with the given handler.

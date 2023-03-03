@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/provenance-io/provenance/x/marker/simulation"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/x/marker/simulation"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
 )
 
 func TestParamChanges(t *testing.T) {

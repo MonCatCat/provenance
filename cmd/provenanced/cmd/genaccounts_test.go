@@ -18,8 +18,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 	genutiltest "github.com/cosmos/cosmos-sdk/x/genutil/client/testutil"
 
-	"github.com/provenance-io/provenance/app"
-	provenancecmd "github.com/provenance-io/provenance/cmd/provenanced/cmd"
+	"github.com/MonCatCat/provenance/app"
+	provenancecmd "github.com/MonCatCat/provenance/cmd/provenanced/cmd"
 )
 
 var testMbm = module.NewBasicManager(genutil.AppModuleBasic{})

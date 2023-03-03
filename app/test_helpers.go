@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/provenance-io/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
 
 	"github.com/stretchr/testify/require"
 
@@ -38,8 +38,8 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/provenance-io/provenance/app/params"
-	rewardtypes "github.com/provenance-io/provenance/x/reward/types"
+	"github.com/MonCatCat/provenance/app/params"
+	rewardtypes "github.com/MonCatCat/provenance/x/reward/types"
 )
 
 // DefaultConsensusParams defines the default Tendermint consensus params used in

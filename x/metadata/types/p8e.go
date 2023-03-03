@@ -6,7 +6,7 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/provenance-io/provenance/x/metadata/types/p8e"
+	"github.com/MonCatCat/provenance/x/metadata/types/p8e"
 
 	"github.com/btcsuite/btcd/btcec"
 	sdk "github.com/cosmos/cosmos-sdk/types"

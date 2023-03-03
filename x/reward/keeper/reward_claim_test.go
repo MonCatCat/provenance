@@ -3,7 +3,7 @@ package keeper_test
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/x/reward/types"
+	"github.com/MonCatCat/provenance/x/reward/types"
 )
 
 var (

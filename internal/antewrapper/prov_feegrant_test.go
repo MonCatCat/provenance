@@ -21,7 +21,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
 	"github.com/cosmos/cosmos-sdk/x/feegrant"
 
-	pioante "github.com/provenance-io/provenance/internal/antewrapper"
+	pioante "github.com/MonCatCat/provenance/internal/antewrapper"
 )
 
 const defaultGas = 10_000_000

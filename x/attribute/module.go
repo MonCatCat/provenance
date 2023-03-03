@@ -8,11 +8,11 @@ import (
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 
-	"github.com/provenance-io/provenance/x/attribute/client/cli"
-	"github.com/provenance-io/provenance/x/attribute/keeper"
-	"github.com/provenance-io/provenance/x/attribute/simulation"
-	"github.com/provenance-io/provenance/x/attribute/types"
-	namekeeper "github.com/provenance-io/provenance/x/name/keeper"
+	"github.com/MonCatCat/provenance/x/attribute/client/cli"
+	"github.com/MonCatCat/provenance/x/attribute/keeper"
+	"github.com/MonCatCat/provenance/x/attribute/simulation"
+	"github.com/MonCatCat/provenance/x/attribute/types"
+	namekeeper "github.com/MonCatCat/provenance/x/name/keeper"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"

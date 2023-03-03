@@ -20,9 +20,9 @@ import (
 	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	simapp "github.com/provenance-io/provenance/app"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	"github.com/provenance-io/provenance/x/metadata/types"
+	simapp "github.com/MonCatCat/provenance/app"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 var (

@@ -14,12 +14,12 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 	"github.com/google/uuid"
 
-	simappparams "github.com/provenance-io/provenance/app/params"
+	simappparams "github.com/MonCatCat/provenance/app/params"
 
-	keeper "github.com/provenance-io/provenance/x/attribute/keeper"
-	types "github.com/provenance-io/provenance/x/attribute/types"
-	namekeeper "github.com/provenance-io/provenance/x/name/keeper"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	keeper "github.com/MonCatCat/provenance/x/attribute/keeper"
+	types "github.com/MonCatCat/provenance/x/attribute/types"
+	namekeeper "github.com/MonCatCat/provenance/x/name/keeper"
+	nametypes "github.com/MonCatCat/provenance/x/name/types"
 )
 
 // Simulation operation weights constants

@@ -13,10 +13,10 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/provenance-io/provenance/app"
-	simappparams "github.com/provenance-io/provenance/app/params"
-	"github.com/provenance-io/provenance/x/attribute/simulation"
-	types "github.com/provenance-io/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/app"
+	simappparams "github.com/MonCatCat/provenance/app/params"
+	"github.com/MonCatCat/provenance/x/attribute/simulation"
+	types "github.com/MonCatCat/provenance/x/attribute/types"
 )
 
 type SimTestSuite struct {

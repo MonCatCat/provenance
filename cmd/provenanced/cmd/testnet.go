@@ -41,10 +41,10 @@ import (
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
+	nametypes "github.com/MonCatCat/provenance/x/name/types"
 )
 
 const (

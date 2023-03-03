@@ -17,7 +17,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/query"
 	"github.com/google/uuid"
 
-	"github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 const defaultLimit = 100

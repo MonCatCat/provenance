@@ -3,7 +3,7 @@ package app
 import (
 	"github.com/cosmos/cosmos-sdk/std"
 
-	"github.com/provenance-io/provenance/app/params"
+	"github.com/MonCatCat/provenance/app/params"
 )
 
 // MakeTestEncodingConfig creates an EncodingConfig for testing. This function

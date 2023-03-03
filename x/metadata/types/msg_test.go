@@ -11,7 +11,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	p8e "github.com/provenance-io/provenance/x/metadata/types/p8e"
+	p8e "github.com/MonCatCat/provenance/x/metadata/types/p8e"
 )
 
 func ownerPartyList(addresses ...string) []Party {

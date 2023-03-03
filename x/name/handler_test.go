@@ -17,11 +17,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/x/name"
+	"github.com/MonCatCat/provenance/x/name/keeper"
+	nametypes "github.com/MonCatCat/provenance/x/name/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/name"
-	"github.com/provenance-io/provenance/x/name/keeper"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
 )
 
 func TestInvalidMsg(t *testing.T) {

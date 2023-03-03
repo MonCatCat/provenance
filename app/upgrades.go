@@ -13,11 +13,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/sanction"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
+	rewardtypes "github.com/MonCatCat/provenance/x/reward/types"
 	ica "github.com/cosmos/ibc-go/v6/modules/apps/27-interchain-accounts"
 	icacontrollertypes "github.com/cosmos/ibc-go/v6/modules/apps/27-interchain-accounts/controller/types"
 	icahosttypes "github.com/cosmos/ibc-go/v6/modules/apps/27-interchain-accounts/host/types"
 	icatypes "github.com/cosmos/ibc-go/v6/modules/apps/27-interchain-accounts/types"
-	rewardtypes "github.com/provenance-io/provenance/x/reward/types"
 )
 
 var (

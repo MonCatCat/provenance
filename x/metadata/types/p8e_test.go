@@ -7,7 +7,7 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/provenance-io/provenance/x/metadata/types/p8e"
+	"github.com/MonCatCat/provenance/x/metadata/types/p8e"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

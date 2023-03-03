@@ -13,7 +13,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/google/uuid"
 
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
+	metadatatypes "github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 // NewAttribute creates a new instance of an Attribute

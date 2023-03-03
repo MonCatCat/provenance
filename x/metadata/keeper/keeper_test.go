@@ -8,11 +8,11 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/x/authz"
 
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/x/metadata/keeper"
-	"github.com/provenance-io/provenance/x/metadata/types"
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/x/metadata/keeper"
+	"github.com/MonCatCat/provenance/x/metadata/types"
+	metadatatypes "github.com/MonCatCat/provenance/x/metadata/types"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"

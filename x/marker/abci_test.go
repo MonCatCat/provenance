@@ -10,9 +10,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/marker"
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/x/marker"
+	"github.com/MonCatCat/provenance/x/marker/types"
 )
 
 func TestBeginBlocker(t *testing.T) {

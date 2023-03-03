@@ -20,8 +20,8 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	markermodule "github.com/provenance-io/provenance/x/marker"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
+	markermodule "github.com/MonCatCat/provenance/x/marker"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
 )
 
 func TestSimAppExportAndBlockedAddrs(t *testing.T) {

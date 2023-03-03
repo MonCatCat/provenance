@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/provenance-io/provenance/internal/provwasm"
-	"github.com/provenance-io/provenance/x/msgfees/types"
+	"github.com/MonCatCat/provenance/internal/provwasm"
+	"github.com/MonCatCat/provenance/x/msgfees/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

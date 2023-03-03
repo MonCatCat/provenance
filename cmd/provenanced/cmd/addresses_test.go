@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/provenance-io/provenance/cmd/provenanced/cmd"
+	"github.com/MonCatCat/provenance/cmd/provenanced/cmd"
 )
 
 type MetaaddressTestSuite struct {

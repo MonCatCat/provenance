@@ -17,10 +17,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/metadata"
-	"github.com/provenance-io/provenance/x/metadata/types"
-	"github.com/provenance-io/provenance/x/metadata/types/p8e"
+	"github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/x/metadata"
+	"github.com/MonCatCat/provenance/x/metadata/types"
+	"github.com/MonCatCat/provenance/x/metadata/types/p8e"
 )
 
 type MetadataHandlerTestSuite struct {

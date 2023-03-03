@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/x/marker/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

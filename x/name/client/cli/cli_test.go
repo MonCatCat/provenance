@@ -20,11 +20,11 @@ import (
 	testnet "github.com/cosmos/cosmos-sdk/testutil/network"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/testutil"
-	namecli "github.com/provenance-io/provenance/x/name/client/cli"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonCatCat/provenance/internal/antewrapper"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/testutil"
+	namecli "github.com/MonCatCat/provenance/x/name/client/cli"
+	nametypes "github.com/MonCatCat/provenance/x/name/types"
 )
 
 type IntegrationTestSuite struct {

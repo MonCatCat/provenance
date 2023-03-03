@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	provconfig "github.com/provenance-io/provenance/cmd/provenanced/config"
+	provconfig "github.com/MonCatCat/provenance/cmd/provenanced/config"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/server"

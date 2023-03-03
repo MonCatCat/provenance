@@ -44,13 +44,13 @@ import (
 	icagenesistypes "github.com/cosmos/ibc-go/v6/modules/apps/27-interchain-accounts/genesis/types"
 	icatypes "github.com/cosmos/ibc-go/v6/modules/apps/27-interchain-accounts/types"
 
-	cmdconfig "github.com/provenance-io/provenance/cmd/provenanced/config"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	attributetypes "github.com/provenance-io/provenance/x/attribute/types"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
-	msgfeetype "github.com/provenance-io/provenance/x/msgfees/types"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	cmdconfig "github.com/MonCatCat/provenance/cmd/provenanced/config"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	attributetypes "github.com/MonCatCat/provenance/x/attribute/types"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
+	metadatatypes "github.com/MonCatCat/provenance/x/metadata/types"
+	msgfeetype "github.com/MonCatCat/provenance/x/msgfees/types"
+	nametypes "github.com/MonCatCat/provenance/x/name/types"
 )
 
 func init() {

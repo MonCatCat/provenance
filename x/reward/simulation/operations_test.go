@@ -12,10 +12,10 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
 
-	"github.com/provenance-io/provenance/app"
-	simappparams "github.com/provenance-io/provenance/app/params"
-	"github.com/provenance-io/provenance/x/reward/simulation"
-	"github.com/provenance-io/provenance/x/reward/types"
+	"github.com/MonCatCat/provenance/app"
+	simappparams "github.com/MonCatCat/provenance/app/params"
+	"github.com/MonCatCat/provenance/x/reward/simulation"
+	"github.com/MonCatCat/provenance/x/reward/types"
 )
 
 type SimTestSuite struct {

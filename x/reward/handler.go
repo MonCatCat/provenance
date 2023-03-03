@@ -1,8 +1,8 @@
 package reward
 
 import (
-	"github.com/provenance-io/provenance/x/reward/keeper"
-	"github.com/provenance-io/provenance/x/reward/types"
+	"github.com/MonCatCat/provenance/x/reward/keeper"
+	"github.com/MonCatCat/provenance/x/reward/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

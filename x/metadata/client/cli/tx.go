@@ -13,7 +13,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/tx"
 	"github.com/cosmos/cosmos-sdk/version"
 
-	"github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
@@ -572,7 +572,7 @@ session1qxge0zaztu65tx5x5llv5xc9zts9sqlch3sxwn44j50jzgt8rshvqyfrjcr \
 contractspec1q000d0q2e8w5say53afqdesxp2zqzkr4fn \
 pb1sh49f6ze3vn7cdl2amh2gnc70z5mten3dpvr42,owner \
 io.p8e.contracts.example.HelloWorldContract \
-github.com/provenance-io/provenance/x/metadata/types/p8e.UUID \
+github.com/MonCatCat/provenance/x/metadata/types/p8e.UUID \
 ChFIRUxMTyBQUk9WRU5BTkNFIQ==`, version.AppName),
 		Args: cobra.RangeArgs(4, 7),
 		RunE: func(cmd *cobra.Command, args []string) error {

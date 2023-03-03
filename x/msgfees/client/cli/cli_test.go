@@ -12,9 +12,9 @@ import (
 	testnet "github.com/cosmos/cosmos-sdk/testutil/network"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/testutil"
-	msgfeescli "github.com/provenance-io/provenance/x/msgfees/client/cli"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/testutil"
+	msgfeescli "github.com/MonCatCat/provenance/x/msgfees/client/cli"
 )
 
 type IntegrationTestSuite struct {

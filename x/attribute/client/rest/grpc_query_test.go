@@ -16,10 +16,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/query"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/testutil"
-	attributetypes "github.com/provenance-io/provenance/x/attribute/types"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/testutil"
+	attributetypes "github.com/MonCatCat/provenance/x/attribute/types"
+	nametypes "github.com/MonCatCat/provenance/x/name/types"
 )
 
 type IntegrationTestSuite struct {

@@ -1,11 +1,11 @@
 package antewrapper_test
 
 import (
+	pioante "github.com/MonCatCat/provenance/internal/antewrapper"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	pioante "github.com/provenance-io/provenance/internal/antewrapper"
 )
 
 // These tests are kicked off by TestAnteTestSuite in testutil_test.go

@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	types "github.com/provenance-io/provenance/x/name/types"
+	types "github.com/MonCatCat/provenance/x/name/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

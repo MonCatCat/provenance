@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/provenance-io/provenance/internal/provwasm"
-	"github.com/provenance-io/provenance/x/metadata/keeper"
-	"github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonCatCat/provenance/internal/provwasm"
+	"github.com/MonCatCat/provenance/x/metadata/keeper"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

@@ -14,12 +14,12 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govtypesv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
-	msgfeeskeeper "github.com/provenance-io/provenance/x/msgfees/keeper"
-	msgfeestypes "github.com/provenance-io/provenance/x/msgfees/types"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	metadatatypes "github.com/MonCatCat/provenance/x/metadata/types"
+	msgfeeskeeper "github.com/MonCatCat/provenance/x/msgfees/keeper"
+	msgfeestypes "github.com/MonCatCat/provenance/x/msgfees/types"
 
-	provenance "github.com/provenance-io/provenance/app"
+	provenance "github.com/MonCatCat/provenance/app"
 )
 
 type IntegrationTestSuite struct {

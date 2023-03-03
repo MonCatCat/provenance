@@ -16,8 +16,8 @@ import (
 	govtypesv1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 	govtypesv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonCatCat/provenance/internal/antewrapper"
+	nametypes "github.com/MonCatCat/provenance/x/name/types"
 )
 
 func TestIsGovernanceMessage(t *testing.T) {
