@@ -7,6 +7,7 @@ import (
 
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	types "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	proto "github.com/gogo/protobuf/proto"
 )
@@ -35,6 +36,7 @@ type MarkerAccountI interface {
 	SetStatus(MarkerStatus) error
 
 	GetSupply() sdk.Coin
+	GetSupplyValues() (string, types.Int)
 	SetSupply(sdk.Coin) error
 	HasFixedSupply() bool
 
@@ -302,6 +304,11 @@ func (ma *MarkerAccount) SetSupply(total sdk.Coin) error {
 // GetSupply implements authtypes.Account
 func (ma MarkerAccount) GetSupply() sdk.Coin {
 	return sdk.NewCoin(ma.Denom, ma.Supply)
+}
+
+// GetSupplyValues implements authtypes.Account
+func (ma MarkerAccount) GetSupplyValues() (string, types.Int) {
+	return ma.Denom, ma.Supply
 }
 
 // GrantAccess appends the access grant to the marker account.
