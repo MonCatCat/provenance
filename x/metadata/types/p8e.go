@@ -8,7 +8,7 @@ import (
 
 	"github.com/MonCatCat/provenance/x/metadata/types/p8e"
 
-	"github.com/btcsuite/btcd/btcec"
+	btcec "github.com/btcsuite/btcd/btcec/v2"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/gogo/protobuf/proto"
 	"github.com/google/uuid"
@@ -447,7 +447,7 @@ func getAddressFromPublicKey(key *p8e.PublicKey) (sdk.AccAddress, error) {
 // parsePublicKey parses a secp256k1 public key, calculates the account address, and returns both.
 func parsePublicKey(data []byte) (tmcrypt.PubKey, sdk.AccAddress, error) {
 	// Parse the secp256k1 public key.
-	pk, err := btcec.ParsePubKey(data, btcec.S256())
+	pk, err := btcec.ParsePubKey(data)
 	if err != nil {
 		return nil, nil, err
 	}
