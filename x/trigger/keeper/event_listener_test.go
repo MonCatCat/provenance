@@ -1,10 +1,10 @@
 package keeper_test
 
 import (
+	"github.com/MonCatCat/provenance/x/trigger/types"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdktx "github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/provenance-io/provenance/x/trigger/types"
 )
 
 func (s *KeeperTestSuite) TestGetAndSetEventListener() {

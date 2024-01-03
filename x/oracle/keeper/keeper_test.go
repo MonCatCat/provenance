@@ -5,14 +5,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/MonCatCat/provenance/app"
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/x/oracle/keeper"
+	"github.com/MonCatCat/provenance/x/oracle/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/provenance-io/provenance/app"
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/oracle/keeper"
-	"github.com/provenance-io/provenance/x/oracle/types"
 	"github.com/stretchr/testify/suite"
 
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"

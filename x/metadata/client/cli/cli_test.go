@@ -27,13 +27,13 @@ import (
 	authzcli "github.com/cosmos/cosmos-sdk/x/authz/client/cli"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/testutil"
-	attrcli "github.com/provenance-io/provenance/x/attribute/client/cli"
-	attrtypes "github.com/provenance-io/provenance/x/attribute/types"
-	"github.com/provenance-io/provenance/x/metadata/client/cli"
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonCatCat/provenance/internal/antewrapper"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/testutil"
+	attrcli "github.com/MonCatCat/provenance/x/attribute/client/cli"
+	attrtypes "github.com/MonCatCat/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/x/metadata/client/cli"
+	metadatatypes "github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 type IntegrationCLITestSuite struct {

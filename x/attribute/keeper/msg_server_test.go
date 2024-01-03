@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/attribute/keeper"
-	"github.com/provenance-io/provenance/x/attribute/types"
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/x/attribute/keeper"
+	"github.com/MonCatCat/provenance/x/attribute/types"
 )
 
 type MsgServerTestSuite struct {

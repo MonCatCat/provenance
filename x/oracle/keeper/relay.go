@@ -15,7 +15,7 @@ import (
 	clienttypes "github.com/cosmos/ibc-go/v6/modules/core/02-client/types"
 	channeltypes "github.com/cosmos/ibc-go/v6/modules/core/04-channel/types"
 
-	"github.com/provenance-io/provenance/x/oracle/types"
+	"github.com/MonCatCat/provenance/x/oracle/types"
 )
 
 // SendQuery sends and records an icq

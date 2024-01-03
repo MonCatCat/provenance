@@ -12,7 +12,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	"github.com/cosmos/cosmos-sdk/version"
 
-	provconfig "github.com/provenance-io/provenance/cmd/provenanced/config"
+	provconfig "github.com/MonCatCat/provenance/cmd/provenanced/config"
 )
 
 const (

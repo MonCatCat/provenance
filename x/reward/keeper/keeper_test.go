@@ -10,10 +10,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
 	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
 
-	"github.com/provenance-io/provenance/app"
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/reward"
-	"github.com/provenance-io/provenance/x/reward/types"
+	"github.com/MonCatCat/provenance/app"
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/x/reward"
+	"github.com/MonCatCat/provenance/x/reward/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"

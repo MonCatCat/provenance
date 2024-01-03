@@ -1,6 +1,6 @@
 package keeper_test
 
-import "github.com/provenance-io/provenance/x/trigger/types"
+import "github.com/MonCatCat/provenance/x/trigger/types"
 
 func (s *KeeperTestSuite) TestQueueTrigger() {
 	owner := s.accountAddresses[0].String()

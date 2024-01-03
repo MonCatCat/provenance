@@ -5,12 +5,12 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/MonCatCat/provenance/x/oracle/simulation"
+	"github.com/MonCatCat/provenance/x/oracle/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/provenance-io/provenance/x/oracle/simulation"
-	"github.com/provenance-io/provenance/x/oracle/types"
 	"github.com/stretchr/testify/assert"
 )
 

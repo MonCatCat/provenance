@@ -7,7 +7,7 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
 
-	"github.com/provenance-io/provenance/x/reward/types"
+	"github.com/MonCatCat/provenance/x/reward/types"
 )
 
 // CacheContextWithHistory returns a new Context with the multi-store cached and a new

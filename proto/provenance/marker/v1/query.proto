@@ -11,7 +11,7 @@ import "google/api/annotations.proto";
 import "provenance/marker/v1/marker.proto";
 import "provenance/marker/v1/accessgrant.proto";
 
-option go_package          = "github.com/provenance-io/provenance/x/marker/types";
+option go_package          = "github.com/MonCatCat/provenance/x/marker/types";
 option java_package        = "io.provenance.marker.v1";
 option java_multiple_files = true;
 

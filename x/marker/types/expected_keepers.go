@@ -12,7 +12,7 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 	transfertypes "github.com/cosmos/ibc-go/v6/modules/apps/transfer/types"
 
-	attrtypes "github.com/provenance-io/provenance/x/attribute/types"
+	attrtypes "github.com/MonCatCat/provenance/x/attribute/types"
 )
 
 // AccountKeeper defines the auth/account functionality needed by the marker keeper.

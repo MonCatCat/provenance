@@ -22,11 +22,11 @@ import (
 	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 
-	rewardModule "github.com/provenance-io/provenance/x/reward"
-	cli "github.com/provenance-io/provenance/x/reward/client/cli"
-	"github.com/provenance-io/provenance/x/reward/keeper"
-	simulation "github.com/provenance-io/provenance/x/reward/simulation"
-	"github.com/provenance-io/provenance/x/reward/types"
+	rewardModule "github.com/MonCatCat/provenance/x/reward"
+	cli "github.com/MonCatCat/provenance/x/reward/client/cli"
+	"github.com/MonCatCat/provenance/x/reward/keeper"
+	simulation "github.com/MonCatCat/provenance/x/reward/simulation"
+	"github.com/MonCatCat/provenance/x/reward/types"
 )
 
 var (

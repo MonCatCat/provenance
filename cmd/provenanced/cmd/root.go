@@ -41,10 +41,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/crisis"
 	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
 
-	"github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/app/params"
-	"github.com/provenance-io/provenance/cmd/provenanced/config"
-	"github.com/provenance-io/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/app/params"
+	"github.com/MonCatCat/provenance/cmd/provenanced/config"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
 )
 
 const (

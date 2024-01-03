@@ -18,9 +18,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	simapp "github.com/provenance-io/provenance/app"
-	markerkeeper "github.com/provenance-io/provenance/x/marker/keeper"
-	"github.com/provenance-io/provenance/x/marker/types"
+	simapp "github.com/MonCatCat/provenance/app"
+	markerkeeper "github.com/MonCatCat/provenance/x/marker/keeper"
+	"github.com/MonCatCat/provenance/x/marker/types"
 )
 
 type MsgServerTestSuite struct {

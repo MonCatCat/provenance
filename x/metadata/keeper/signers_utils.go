@@ -8,7 +8,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/authz"
 
-	"github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 // PartyDetails is a struct used to help process party and signer validation.

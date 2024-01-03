@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	triggertypes "github.com/provenance-io/provenance/x/trigger/types"
+	triggertypes "github.com/MonCatCat/provenance/x/trigger/types"
 )
 
 // RegisterTrigger Adds the trigger to the trigger, event listener, and gas store

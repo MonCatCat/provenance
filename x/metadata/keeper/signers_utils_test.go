@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
+	"github.com/MonCatCat/provenance/x/metadata/keeper"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/authz"
-	"github.com/provenance-io/provenance/x/metadata/keeper"
-	"github.com/provenance-io/provenance/x/metadata/types"
 )
 
 // stringSame is a string with an IsSameAs(stringSame) function.

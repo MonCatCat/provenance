@@ -4,8 +4,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/provenance-io/provenance/x/attribute/keeper"
-	"github.com/provenance-io/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/x/attribute/keeper"
+	"github.com/MonCatCat/provenance/x/attribute/types"
 )
 
 // NewHandler returns a handler for attribute messages.

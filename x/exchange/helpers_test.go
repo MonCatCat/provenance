@@ -12,7 +12,7 @@ import (
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/testutil/assertions"
+	"github.com/MonCatCat/provenance/testutil/assertions"
 )
 
 // amtRx is a regex matching characters that can be removed from an amount string.

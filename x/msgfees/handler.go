@@ -6,8 +6,8 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	govtypesv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 
-	"github.com/provenance-io/provenance/x/msgfees/keeper"
-	"github.com/provenance-io/provenance/x/msgfees/types"
+	"github.com/MonCatCat/provenance/x/msgfees/keeper"
+	"github.com/MonCatCat/provenance/x/msgfees/types"
 )
 
 func NewProposalHandler(k keeper.Keeper, registry cdctypes.InterfaceRegistry) govtypesv1beta1.Handler {

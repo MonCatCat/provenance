@@ -13,7 +13,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/provenance-io/provenance/x/hold"
+	"github.com/MonCatCat/provenance/x/hold"
 )
 
 // GetHolds looks up the funds that are on hold for an address.

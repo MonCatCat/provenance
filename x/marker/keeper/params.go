@@ -8,7 +8,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/x/marker/types"
 )
 
 // GetParams returns the total set of distribution parameters.

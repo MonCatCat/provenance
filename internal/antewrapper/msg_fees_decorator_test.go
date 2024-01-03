@@ -9,8 +9,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/signing"
 	"github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	"github.com/provenance-io/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/internal/antewrapper"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
 )
 
 const (

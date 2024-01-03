@@ -8,8 +8,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/provenance-io/provenance/x/exchange"
-	"github.com/provenance-io/provenance/x/exchange/keeper"
+	"github.com/MonCatCat/provenance/x/exchange"
+	"github.com/MonCatCat/provenance/x/exchange/keeper"
 )
 
 const invalidArgErr = "rpc error: code = InvalidArgument"

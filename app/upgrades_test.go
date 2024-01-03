@@ -24,9 +24,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/staking/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/provenance-io/provenance/x/exchange"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	msgfeetypes "github.com/provenance-io/provenance/x/msgfees/types"
+	"github.com/MonCatCat/provenance/x/exchange"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
+	msgfeetypes "github.com/MonCatCat/provenance/x/msgfees/types"
 )
 
 type UpgradeTestSuite struct {

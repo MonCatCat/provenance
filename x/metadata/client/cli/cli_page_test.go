@@ -23,10 +23,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/testutil"
-	mdcli "github.com/provenance-io/provenance/x/metadata/client/cli"
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/testutil"
+	mdcli "github.com/MonCatCat/provenance/x/metadata/client/cli"
+	metadatatypes "github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 type IntegrationCLIPageTestSuite struct {

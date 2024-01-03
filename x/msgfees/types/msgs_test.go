@@ -3,7 +3,7 @@ package types
 import (
 	"testing"
 
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
+	metadatatypes "github.com/MonCatCat/provenance/x/metadata/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 

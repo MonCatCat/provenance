@@ -13,7 +13,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/x/marker/types"
 )
 
 // Simulation parameter constants

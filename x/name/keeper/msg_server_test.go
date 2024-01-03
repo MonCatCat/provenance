@@ -13,10 +13,10 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	simapp "github.com/provenance-io/provenance/app"
-	attrtypes "github.com/provenance-io/provenance/x/attribute/types"
-	"github.com/provenance-io/provenance/x/name/keeper"
-	"github.com/provenance-io/provenance/x/name/types"
+	simapp "github.com/MonCatCat/provenance/app"
+	attrtypes "github.com/MonCatCat/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/x/name/keeper"
+	"github.com/MonCatCat/provenance/x/name/types"
 )
 
 type MsgServerTestSuite struct {

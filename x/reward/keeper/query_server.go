@@ -12,7 +12,7 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/provenance-io/provenance/x/reward/types"
+	"github.com/MonCatCat/provenance/x/reward/types"
 )
 
 var _ types.QueryServer = Keeper{}

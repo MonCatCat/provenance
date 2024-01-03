@@ -10,7 +10,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/provenance-io/provenance/x/trigger/types"
+	"github.com/MonCatCat/provenance/x/trigger/types"
 )
 
 var _ types.QueryServer = Keeper{}

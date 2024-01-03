@@ -7,10 +7,10 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	simappparams "github.com/provenance-io/provenance/app/params"
-	attributetypes "github.com/provenance-io/provenance/x/attribute/types"
-	"github.com/provenance-io/provenance/x/msgfees/keeper"
-	"github.com/provenance-io/provenance/x/msgfees/types"
+	simappparams "github.com/MonCatCat/provenance/app/params"
+	attributetypes "github.com/MonCatCat/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/x/msgfees/keeper"
+	"github.com/MonCatCat/provenance/x/msgfees/types"
 )
 
 const (

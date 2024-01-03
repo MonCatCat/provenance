@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/provenance-io/provenance/x/exchange"
+	"github.com/MonCatCat/provenance/x/exchange"
 )
 
 // MsgServer is an alias for a Keeper that implements the exchange.MsgServer interface.

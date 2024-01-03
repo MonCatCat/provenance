@@ -17,7 +17,7 @@ import (
 	govcli "github.com/cosmos/cosmos-sdk/x/gov/client/cli"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	"github.com/provenance-io/provenance/x/oracle/types"
+	"github.com/MonCatCat/provenance/x/oracle/types"
 )
 
 // NewTxCmd is the top-level command for oracle CLI transactions.

@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/x/attribute/types"
 )
 
 // GetParams returns the total set of account parameters.

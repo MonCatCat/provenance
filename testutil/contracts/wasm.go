@@ -7,7 +7,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	provenanceapp "github.com/provenance-io/provenance/app"
+	provenanceapp "github.com/MonCatCat/provenance/app"
 
 	_ "embed"
 )

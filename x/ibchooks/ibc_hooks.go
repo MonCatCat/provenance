@@ -9,8 +9,8 @@ import (
 	ibcexported "github.com/cosmos/ibc-go/v6/modules/core/exported"
 	ibckeeper "github.com/cosmos/ibc-go/v6/modules/core/keeper"
 
-	"github.com/provenance-io/provenance/x/ibchooks/keeper"
-	"github.com/provenance-io/provenance/x/ibchooks/types"
+	"github.com/MonCatCat/provenance/x/ibchooks/keeper"
+	"github.com/MonCatCat/provenance/x/ibchooks/types"
 )
 
 type IbcHooks struct {

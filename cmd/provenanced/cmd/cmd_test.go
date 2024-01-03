@@ -8,7 +8,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
 
-	"github.com/provenance-io/provenance/cmd/provenanced/cmd"
+	"github.com/MonCatCat/provenance/cmd/provenanced/cmd"
 )
 
 func TestInitCmd(t *testing.T) {

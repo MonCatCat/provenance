@@ -7,7 +7,7 @@ import (
 	channeltypes "github.com/cosmos/ibc-go/v6/modules/core/04-channel/types"
 	ibcexported "github.com/cosmos/ibc-go/v6/modules/core/exported"
 
-	"github.com/provenance-io/provenance/x/ibchooks/types"
+	"github.com/MonCatCat/provenance/x/ibchooks/types"
 )
 
 type Hooks interface{}

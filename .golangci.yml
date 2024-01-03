@@ -16,7 +16,7 @@ linters:
     - errorlint
     - errname
     - exportloopref
-#    - forcetypeassert
+    #    - forcetypeassert
     - gci
     - goconst
     - gocritic
@@ -105,11 +105,11 @@ linters-settings:
 
           - github.com/grpc-ecosystem/grpc-gateway
 
-          - github.com/otiai10/copy  # Used by the dbmigrate only
+          - github.com/otiai10/copy # Used by the dbmigrate only
 
-          - github.com/provenance-io/provenance
+          - github.com/MonCatCat/provenance
 
-          - github.com/rakyll/statik/fs 
+          - github.com/rakyll/statik/fs
 
           - github.com/spf13/cast
           - github.com/spf13/cobra
@@ -160,7 +160,7 @@ linters-settings:
   misspell:
     locale: US
     ignore-words:
-    - cancelled
+      - cancelled
   nolintlint:
     allow-unused: false
     require-explanation: false

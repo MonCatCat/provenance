@@ -13,7 +13,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/version"
 	govtypesv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 
-	"github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonCatCat/provenance/x/name/types"
 )
 
 const (

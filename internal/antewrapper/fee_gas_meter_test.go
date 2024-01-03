@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/provenance-io/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
 )
 
 func TestFeeGasMeter(t *testing.T) {

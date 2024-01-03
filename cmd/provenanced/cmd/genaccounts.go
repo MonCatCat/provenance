@@ -22,10 +22,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 
-	markercli "github.com/provenance-io/provenance/x/marker/client/cli"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	msgfeetypes "github.com/provenance-io/provenance/x/msgfees/types"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	markercli "github.com/MonCatCat/provenance/x/marker/client/cli"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
+	msgfeetypes "github.com/MonCatCat/provenance/x/msgfees/types"
+	nametypes "github.com/MonCatCat/provenance/x/name/types"
 )
 
 const (

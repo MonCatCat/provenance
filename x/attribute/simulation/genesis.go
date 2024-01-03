@@ -9,7 +9,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/provenance-io/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/x/attribute/types"
 )
 
 // Simulation parameter constants

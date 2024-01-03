@@ -8,8 +8,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	"github.com/provenance-io/provenance/x/metadata/types"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 // ValidateSignersWithParties ensures the following:

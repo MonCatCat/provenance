@@ -4,6 +4,8 @@ import (
 	"errors"
 	"time"
 
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/x/reward/types"
 	sdksim "github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
@@ -13,8 +15,6 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
 	"github.com/cosmos/cosmos-sdk/x/staking/teststaking"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/reward/types"
 )
 
 const delegatorAddr = "cosmos1v57fx2l2rt6ehujuu99u2fw05779m5e2ux4z2h"

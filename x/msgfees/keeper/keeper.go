@@ -17,7 +17,7 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	"github.com/provenance-io/provenance/x/msgfees/types"
+	"github.com/MonCatCat/provenance/x/msgfees/types"
 )
 
 const StoreKey = types.ModuleName

@@ -13,7 +13,7 @@ const (
 	// AssessCustomMsgFeeBips is the bips the recipient will get
 	// This should be a message level data (present in TypeAssessCustomMsgFee = "assess_custom_msg_fee") i think so that it can be defined by the smart contract writer
 	// or at the very least it can be a module param.
-	// for now i am hard coding it to avoid breaking any clients and because of this ticket https://github.com/provenance-io/provenance/issues/1263
+	// for now i am hard coding it to avoid breaking any clients and because of this ticket https://github.com/MonCatCat/provenance/issues/1263
 	AssessCustomMsgFeeBips = 10_000
 )
 

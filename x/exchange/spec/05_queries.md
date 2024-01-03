@@ -38,13 +38,13 @@ Then choose one entry from each of `settlement_flat_fee_options` and `settlement
 
 ### QueryOrderFeeCalcRequest
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L96-L103
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L96-L103
 
 See also: [AskOrder](03_messages.md#askorder), and [BidOrder](03_messages.md#bidorder).
 
 ### QueryOrderFeeCalcResponse
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L105-L124
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L105-L124
 
 
 ## GetOrder
@@ -53,15 +53,15 @@ Use the `GetOrder` query to look up an order by its id.
 
 ### QueryGetOrderRequest
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L126-L130
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L126-L130
 
 ### QueryGetOrderResponse
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L132-L136
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L132-L136
 
 ### Order
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/orders.proto#L13-L26
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/orders.proto#L13-L26
 
 See also: [AskOrder](03_messages.md#askorder), and [BidOrder](03_messages.md#bidorder).
 
@@ -72,11 +72,11 @@ Orders with external ids can be looked up using the `GetOrderByExternalID` query
 
 ### QueryGetOrderByExternalIDRequest
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L138-L144
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L138-L144
 
 ### QueryGetOrderByExternalIDResponse
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L146-L150
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L146-L150
 
 See also: [Order](#order).
 
@@ -90,11 +90,11 @@ This query is paginated.
 
 ### QueryGetMarketOrdersRequest
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L152-L163
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L152-L163
 
 ### QueryGetMarketOrdersResponse
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L165-L172
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L165-L172
 
 See also: [Order](#order).
 
@@ -108,11 +108,11 @@ This query is paginated.
 
 ### QueryGetOwnerOrdersRequest
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L174-L185
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L174-L185
 
 ### QueryGetOwnerOrdersResponse
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L187-L194
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L187-L194
 
 See also: [Order](#order).
 
@@ -126,11 +126,11 @@ This query is paginated.
 
 ### QueryGetAssetOrdersRequest
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L196-L207
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L196-L207
 
 ### QueryGetAssetOrdersResponse
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L209-L216
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L209-L216
 
 See also: [Order](#order).
 
@@ -143,11 +143,11 @@ This query is paginated.
 
 ### QueryGetAllOrdersRequest
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L218-L222
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L218-L222
 
 ### QueryGetAllOrdersResponse
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L224-L231
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L224-L231
 
 See also: [Order](#order).
 
@@ -158,11 +158,11 @@ All the information and setup for a market can be looked up using the `GetMarket
 
 ### QueryGetMarketRequest
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L233-L237
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L233-L237
 
 ### QueryGetMarketResponse
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L239-L245
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L239-L245
 
 See also: [Market](03_messages.md#market).
 
@@ -173,15 +173,15 @@ Use the `GetAllMarkets` query to get brief information about all markets.
 
 ### QueryGetAllMarketsRequest
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L247-L251
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L247-L251
 
 ### QueryGetAllMarketsResponse
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L253-L260
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L253-L260
 
 ### MarketBrief
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/market.proto#L42-L50
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/market.proto#L42-L50
 
 
 ## Params
@@ -190,11 +190,11 @@ The exchange module params can be looked up using the `Params` query.
 
 ### QueryParamsRequest
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L262-L263
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L262-L263
 
 ### QueryParamsResponse
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L265-L269
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L265-L269
 
 See also: [Params](06_params.md#params).
 
@@ -211,13 +211,13 @@ If the result has:
 
 ### QueryValidateCreateMarketRequest
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L271-L275
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L271-L275
 
 See also: [MsgGovCreateMarketRequest](03_messages.md#msggovcreatemarketrequest).
 
 ### QueryValidateCreateMarketResponse
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L277-L287
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L277-L287
 
 
 ## ValidateMarket
@@ -228,11 +228,11 @@ Any problems detected will be returned in the `error` field.
 
 ### QueryValidateMarketRequest
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L289-L293
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L289-L293
 
 ### QueryValidateMarketResponse
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L295-L299
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L295-L299
 
 
 ## ValidateManageFees
@@ -247,10 +247,10 @@ If the result has:
 
 ### QueryValidateManageFeesRequest
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L301-L305
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L301-L305
 
 See also: [MsgGovManageFeesRequest](03_messages.md#msggovmanagefeesrequest).
 
 ### QueryValidateManageFeesResponse
 
-+++ https://github.com/provenance-io/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L307-L317
++++ https://github.com/MonCatCat/provenance/blob/v1.17.0/proto/provenance/exchange/v1/query.proto#L307-L317

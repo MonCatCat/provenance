@@ -12,7 +12,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/testutil/assertions"
+	"github.com/MonCatCat/provenance/testutil/assertions"
 )
 
 func TestNewEventHoldAdded(t *testing.T) {

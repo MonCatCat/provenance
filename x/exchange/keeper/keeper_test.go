@@ -9,7 +9,7 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	"github.com/provenance-io/provenance/x/exchange"
+	"github.com/MonCatCat/provenance/x/exchange"
 )
 
 func (s *TestSuite) TestKeeper_GetAuthority() {

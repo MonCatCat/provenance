@@ -15,11 +15,11 @@ import (
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/app"
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/x/attribute/types"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonCatCat/provenance/app"
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/x/attribute/types"
+	nametypes "github.com/MonCatCat/provenance/x/name/types"
 )
 
 type KeeperTestSuite struct {

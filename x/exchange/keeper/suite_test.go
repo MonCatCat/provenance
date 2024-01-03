@@ -18,11 +18,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/testutil/assertions"
-	"github.com/provenance-io/provenance/x/exchange"
-	"github.com/provenance-io/provenance/x/exchange/keeper"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/testutil/assertions"
+	"github.com/MonCatCat/provenance/x/exchange"
+	"github.com/MonCatCat/provenance/x/exchange/keeper"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
 )
 
 type TestSuite struct {

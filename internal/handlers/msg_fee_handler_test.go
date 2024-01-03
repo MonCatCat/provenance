@@ -3,7 +3,7 @@ package handlers_test
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	piohandlers "github.com/provenance-io/provenance/internal/handlers"
+	piohandlers "github.com/MonCatCat/provenance/internal/handlers"
 )
 
 func (s *HandlerTestSuite) TestMsgFeeHandlerSetUp() {

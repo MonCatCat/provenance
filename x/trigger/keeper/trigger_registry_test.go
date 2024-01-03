@@ -3,9 +3,9 @@ package keeper_test
 import (
 	"math"
 
+	"github.com/MonCatCat/provenance/x/trigger/types"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/provenance-io/provenance/x/trigger/types"
 )
 
 func (s *KeeperTestSuite) TestRegisterTrigger() {

@@ -18,10 +18,10 @@ import (
 	sdktx "github.com/cosmos/cosmos-sdk/types/tx"
 	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
 
-	"github.com/provenance-io/provenance/app"
-	simappparams "github.com/provenance-io/provenance/app/params"
-	"github.com/provenance-io/provenance/x/trigger/simulation"
-	"github.com/provenance-io/provenance/x/trigger/types"
+	"github.com/MonCatCat/provenance/app"
+	simappparams "github.com/MonCatCat/provenance/app/params"
+	"github.com/MonCatCat/provenance/x/trigger/simulation"
+	"github.com/MonCatCat/provenance/x/trigger/types"
 )
 
 type SimTestSuite struct {

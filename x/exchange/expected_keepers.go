@@ -5,8 +5,8 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	attrtypes "github.com/provenance-io/provenance/x/attribute/types"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
+	attrtypes "github.com/MonCatCat/provenance/x/attribute/types"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
 )
 
 type AccountKeeper interface {

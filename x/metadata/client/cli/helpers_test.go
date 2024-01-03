@@ -9,7 +9,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 func nameFromInput(arg string) string {

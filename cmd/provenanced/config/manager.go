@@ -19,7 +19,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	serverconfig "github.com/cosmos/cosmos-sdk/server/config"
 
-	"github.com/provenance-io/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
 )
 
 // DefaultConsensusTimeoutCommit is the default value used for the consensus.timeout_commit config value.

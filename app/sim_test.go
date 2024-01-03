@@ -47,15 +47,15 @@ import (
 	icagenesistypes "github.com/cosmos/ibc-go/v6/modules/apps/27-interchain-accounts/genesis/types"
 	icatypes "github.com/cosmos/ibc-go/v6/modules/apps/27-interchain-accounts/types"
 
-	cmdconfig "github.com/provenance-io/provenance/cmd/provenanced/config"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	attributetypes "github.com/provenance-io/provenance/x/attribute/types"
-	"github.com/provenance-io/provenance/x/hold"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
-	msgfeetype "github.com/provenance-io/provenance/x/msgfees/types"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
-	triggertypes "github.com/provenance-io/provenance/x/trigger/types"
+	cmdconfig "github.com/MonCatCat/provenance/cmd/provenanced/config"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	attributetypes "github.com/MonCatCat/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/x/hold"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
+	metadatatypes "github.com/MonCatCat/provenance/x/metadata/types"
+	msgfeetype "github.com/MonCatCat/provenance/x/msgfees/types"
+	nametypes "github.com/MonCatCat/provenance/x/name/types"
+	triggertypes "github.com/MonCatCat/provenance/x/trigger/types"
 )
 
 func init() {
@@ -190,7 +190,7 @@ func TestSimple(t *testing.T) {
 }
 
 // Profile with:
-// /usr/local/go/bin/go test -benchmem -run=^$ github.com/provenance-io/provenance -bench ^BenchmarkFullAppSimulation$ -Commit=true -cpuprofile cpu.out
+// /usr/local/go/bin/go test -benchmem -run=^$ github.com/MonCatCat/provenance -bench ^BenchmarkFullAppSimulation$ -Commit=true -cpuprofile cpu.out
 func TestAppImportExport(t *testing.T) {
 	// uncomment to run in ide without flags.
 	//sdksim.FlagEnabledValue = true

@@ -21,16 +21,16 @@ For more information on the many TradFi institutions and Fintechs leveraging the
 ![Lint Status][lint-badge]
 
 [license-badge]: https://img.shields.io/github/license/provenance-io/provenance.svg
-[license-url]: https://github.com/provenance-io/provenance/blob/main/LICENSE
+[license-url]: https://github.com/MonCatCat/provenance/blob/main/LICENSE
 [release-badge]: https://img.shields.io/github/tag/provenance-io/provenance.svg
-[release-latest]: https://github.com/provenance-io/provenance/releases/latest
-[goreport-badge]: https://goreportcard.com/badge/github.com/provenance-io/provenance
-[goreport-url]: https://goreportcard.com/report/github.com/provenance-io/provenance
+[release-latest]: https://github.com/MonCatCat/provenance/releases/latest
+[goreport-badge]: https://goreportcard.com/badge/github.com/MonCatCat/provenance
+[goreport-url]: https://goreportcard.com/report/github.com/MonCatCat/provenance
 [cover-badge]: https://codecov.io/gh/provenance-io/provenance/branch/main/graph/badge.svg
 [cover-report]: https://codecov.io/gh/provenance-io/provenance
 [loc-badge]: https://tokei.rs/b1/github/provenance-io/provenance
-[loc-report]: https://github.com/provenance-io/provenance
-[lint-badge]: https://github.com/provenance-io/provenance/workflows/Lint/badge.svg
+[loc-report]: https://github.com/MonCatCat/provenance
+[lint-badge]: https://github.com/MonCatCat/provenance/workflows/Lint/badge.svg
 [provenance]: https://provenance.io/
 [cosmos]: https://cosmos.network/
 

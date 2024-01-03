@@ -6,10 +6,10 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
 
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/x/attribute"
+	"github.com/MonCatCat/provenance/x/attribute/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/attribute"
-	"github.com/provenance-io/provenance/x/attribute/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"

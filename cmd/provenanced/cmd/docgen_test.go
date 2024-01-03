@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
+	provenancecmd "github.com/MonCatCat/provenance/cmd/provenanced/cmd"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/server"
 	sdksim "github.com/cosmos/cosmos-sdk/simapp"
 	genutiltest "github.com/cosmos/cosmos-sdk/x/genutil/client/testutil"
-	provenancecmd "github.com/provenance-io/provenance/cmd/provenanced/cmd"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/libs/log"

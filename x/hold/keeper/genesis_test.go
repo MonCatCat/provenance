@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/x/hold"
-	"github.com/provenance-io/provenance/x/hold/keeper"
+	"github.com/MonCatCat/provenance/x/hold"
+	"github.com/MonCatCat/provenance/x/hold/keeper"
 )
 
 func (s *TestSuite) TestKeeper_InitGenesis() {

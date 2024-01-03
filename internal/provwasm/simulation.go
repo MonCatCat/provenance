@@ -21,12 +21,12 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	simappparams "github.com/provenance-io/provenance/app/params"
-	markersim "github.com/provenance-io/provenance/x/marker/simulation"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	namekeeper "github.com/provenance-io/provenance/x/name/keeper"
-	namesim "github.com/provenance-io/provenance/x/name/simulation"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	simappparams "github.com/MonCatCat/provenance/app/params"
+	markersim "github.com/MonCatCat/provenance/x/marker/simulation"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
+	namekeeper "github.com/MonCatCat/provenance/x/name/keeper"
+	namesim "github.com/MonCatCat/provenance/x/name/simulation"
+	nametypes "github.com/MonCatCat/provenance/x/name/types"
 )
 
 const (

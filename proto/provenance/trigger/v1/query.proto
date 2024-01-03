@@ -6,7 +6,7 @@ import "google/api/annotations.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
 import "provenance/trigger/v1/trigger.proto";
 
-option go_package          = "github.com/provenance-io/provenance/x/trigger/types";
+option go_package          = "github.com/MonCatCat/provenance/x/trigger/types";
 option java_package        = "io.provenance.trigger.v1";
 option java_multiple_files = true;
 

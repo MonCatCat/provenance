@@ -1,20 +1,20 @@
 # Quick reference
 
-- **Maintained by**: [The Provenance Team](https://github.com/provenance-io/provenance)
-- **Where to file issues**: [Provenance Issue Tracker](https://github.com/provenance-io/provenance/issues)
+- **Maintained by**: [The Provenance Team](https://github.com/MonCatCat/provenance)
+- **Where to file issues**: [Provenance Issue Tracker](https://github.com/MonCatCat/provenance/issues)
 
 # Supported tags and respective `Dockerfile` links:
 
-- [`v1.0.0`](https://github.com/provenance-io/provenance/blob/release/v1.0.0/docker/blockchain/Dockerfile)
-- [`v0.3.0`](https://github.com/provenance-io/provenance/blob/release/v0.3.0/docker/blockchain/Dockerfile)
-- [`v0.2.1`](https://github.com/provenance-io/provenance/blob/release/v0.2.1/docker/blockchain/Dockerfile)
-- [`v0.2.0`](https://github.com/provenance-io/provenance/blob/release/v0.2.0/docker/blockchain/Dockerfile)
+- [`v1.0.0`](https://github.com/MonCatCat/provenance/blob/release/v1.0.0/docker/blockchain/Dockerfile)
+- [`v0.3.0`](https://github.com/MonCatCat/provenance/blob/release/v0.3.0/docker/blockchain/Dockerfile)
+- [`v0.2.1`](https://github.com/MonCatCat/provenance/blob/release/v0.2.1/docker/blockchain/Dockerfile)
+- [`v0.2.0`](https://github.com/MonCatCat/provenance/blob/release/v0.2.0/docker/blockchain/Dockerfile)
 
 # Quick reference (cont.)
 
 - **Supported architectures**: [`x86_64, aarch64`]
   - **Why not more?**: Upstream dependencies currently lock us into x86_64 and aarch64 (namely libwasm). There are future plans for other architectures.
-- **Source of this description**: [docs](https://github.com/provenance-io/provenance/blob/main/docker/README.md)
+- **Source of this description**: [docs](https://github.com/MonCatCat/provenance/blob/main/docker/README.md)
 
 # What is this image?
 

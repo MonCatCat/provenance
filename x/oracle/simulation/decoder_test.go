@@ -8,9 +8,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/simapp"
 	"github.com/cosmos/cosmos-sdk/types/kv"
 
-	"github.com/provenance-io/provenance/testutil/assertions"
-	"github.com/provenance-io/provenance/x/oracle/simulation"
-	"github.com/provenance-io/provenance/x/oracle/types"
+	"github.com/MonCatCat/provenance/testutil/assertions"
+	"github.com/MonCatCat/provenance/x/oracle/simulation"
+	"github.com/MonCatCat/provenance/x/oracle/types"
 )
 
 func TestDecodeStore(t *testing.T) {

@@ -18,7 +18,7 @@ import (
 	servertypes "github.com/cosmos/cosmos-sdk/server/types"
 	sdksim "github.com/cosmos/cosmos-sdk/simapp"
 
-	"github.com/provenance-io/provenance/cmd/provenanced/config"
+	"github.com/MonCatCat/provenance/cmd/provenanced/config"
 )
 
 func TestIAVLConfig(t *testing.T) {

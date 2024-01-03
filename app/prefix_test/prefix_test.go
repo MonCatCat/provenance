@@ -26,7 +26,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/app"
+	"github.com/MonCatCat/provenance/app"
 )
 
 func TestFullBIP44Path(t *testing.T) {

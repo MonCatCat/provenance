@@ -7,6 +7,7 @@ import (
 
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
+	triggercli "github.com/MonCatCat/provenance/x/trigger/client/cli"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/crypto/hd"
@@ -19,15 +20,14 @@ import (
 	sdktx "github.com/cosmos/cosmos-sdk/types/tx"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	triggercli "github.com/provenance-io/provenance/x/trigger/client/cli"
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/testutil"
-	"github.com/provenance-io/provenance/x/trigger/types"
-	triggertypes "github.com/provenance-io/provenance/x/trigger/types"
+	"github.com/MonCatCat/provenance/internal/antewrapper"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/testutil"
+	"github.com/MonCatCat/provenance/x/trigger/types"
+	triggertypes "github.com/MonCatCat/provenance/x/trigger/types"
 )
 
 type IntegrationTestSuite struct {

@@ -5,10 +5,10 @@ import (
 
 	"github.com/google/uuid"
 
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/x/metadata/keeper"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/metadata/keeper"
-	"github.com/provenance-io/provenance/x/metadata/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 )
 

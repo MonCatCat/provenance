@@ -21,11 +21,11 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/cosmos/cosmos-sdk/x/authz"
 
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	"github.com/provenance-io/provenance/x/metadata/keeper"
-	"github.com/provenance-io/provenance/x/metadata/types"
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/x/metadata/keeper"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 type AuthzTestSuite struct {

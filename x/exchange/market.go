@@ -11,7 +11,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	nametypes "github.com/MonCatCat/provenance/x/name/types"
 )
 
 const (

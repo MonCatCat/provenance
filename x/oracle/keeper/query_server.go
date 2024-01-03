@@ -9,7 +9,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/x/oracle/types"
+	"github.com/MonCatCat/provenance/x/oracle/types"
 )
 
 var _ types.QueryServer = Keeper{}

@@ -1,4 +1,4 @@
-module github.com/provenance-io/provenance
+module github.com/MonCatCat/provenance
 
 go 1.20
 
@@ -200,5 +200,5 @@ replace github.com/tecbot/gorocksdb => github.com/cosmos/gorocksdb v1.1.1
 // TODO Remove it: https://github.com/cosmos/cosmos-sdk/issues/10409
 replace github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.7.0
 
-// TODO: This is also required for https://github.com/provenance-io/provenance/issues/1414
+// TODO: This is also required for https://github.com/MonCatCat/provenance/issues/1414
 replace github.com/CosmWasm/wasmd => github.com/provenance-io/wasmd v0.30.0-pio-5

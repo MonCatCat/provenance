@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	attrTypes "github.com/provenance-io/provenance/x/attribute/types"
-	"github.com/provenance-io/provenance/x/marker/types"
+	attrTypes "github.com/MonCatCat/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/x/marker/types"
 )
 
 const AddressHasAccessKey = "address_has_access"

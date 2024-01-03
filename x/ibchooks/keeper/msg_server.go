@@ -6,7 +6,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/x/ibchooks/types"
+	"github.com/MonCatCat/provenance/x/ibchooks/types"
 )
 
 type msgServer struct {

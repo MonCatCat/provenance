@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/reward"
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/x/reward"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"

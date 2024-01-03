@@ -5,7 +5,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/authz"
 
-	"github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 // This file is available only to unit tests and exposes private things

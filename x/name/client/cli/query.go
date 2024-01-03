@@ -12,7 +12,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/version"
 
-	"github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonCatCat/provenance/x/name/types"
 )
 
 // GetQueryCmd is the top-level command for name CLI queries.

@@ -12,9 +12,9 @@ import (
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/testutil/assertions"
-	"github.com/provenance-io/provenance/x/exchange"
-	"github.com/provenance-io/provenance/x/exchange/keeper"
+	"github.com/MonCatCat/provenance/testutil/assertions"
+	"github.com/MonCatCat/provenance/x/exchange"
+	"github.com/MonCatCat/provenance/x/exchange/keeper"
 )
 
 const hexString = "8fde739c8158424b93dfc27b08e40285" // randomly generated using uuidgen

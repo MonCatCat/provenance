@@ -10,8 +10,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/version"
 
-	"github.com/provenance-io/provenance/x/ibchooks/keeper"
-	"github.com/provenance-io/provenance/x/ibchooks/types"
+	"github.com/MonCatCat/provenance/x/ibchooks/keeper"
+	"github.com/MonCatCat/provenance/x/ibchooks/types"
 )
 
 func indexRunCmd(cmd *cobra.Command, _ []string) error {

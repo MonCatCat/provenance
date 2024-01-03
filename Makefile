@@ -42,7 +42,7 @@ ifeq ("$(wildcard $(GOLANGCI_LINT))","")
     GOLANGCI_LINT = $(BINDIR)/golangci-lint
 endif
 
-HTTPS_GIT := https://github.com/provenance-io/provenance.git
+HTTPS_GIT := https://github.com/MonCatCat/provenance.git
 DOCKER := $(shell which docker)
 DOCKER_BUF := $(DOCKER) run --rm -v $(CURDIR):/workspace --workdir /workspace bufbuild/buf
 
@@ -356,7 +356,7 @@ clean:
 format:
 	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "*.pb.go" -not -path "*/statik*" | xargs gofmt -w -s
 	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "*.pb.go" -not -path "*/statik*" | xargs misspell -w
-	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "*.pb.go" -not -path "*/statik*" | xargs goimports -w -local github.com/provenance-io/provenance
+	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "*.pb.go" -not -path "*/statik*" | xargs goimports -w -local github.com/MonCatCat/provenance
 
 check-built:
 	@if [ ! -f "$(BUILDDIR)/provenanced" ]; then \

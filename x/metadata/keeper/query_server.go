@@ -15,7 +15,7 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 const defaultLimit = 100

@@ -36,8 +36,8 @@ Contributing to this repo can mean many things such as participated in
 discussion or proposing code changes. To ensure a smooth workflow for all
 contributors, the general procedure for contributing has been established:
 
-1. Either [open](https://github.com/provenance-io/provenance/issues/new/choose) or
-   [find](https://github.com/provenance-io/provenance/issues) an issue you'd like to help with
+1. Either [open](https://github.com/MonCatCat/provenance/issues/new/choose) or
+   [find](https://github.com/MonCatCat/provenance/issues) an issue you'd like to help with
 2. Participate in thoughtful discussion on that issue
 3. If you would like to contribute:
    1. If the issue is a proposal, ensure that the proposal has been accepted
@@ -69,7 +69,7 @@ overall information on repository workflow and standards. Note, we use `make too
 Other notes:
 
 - Looking for a good place to start contributing? How about checking out some
-  [good first issues](https://github.com/provenance-io/provenance/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+  [good first issues](https://github.com/MonCatCat/provenance/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 - Please make sure to run `make format` before every commit - the easiest way
   to do this is have your editor run it for you upon saving a file. Additionally
   please ensure that your code is lint compliant by running `make lint`.
@@ -122,12 +122,12 @@ Please note that Go requires code to live under absolute paths, which complicate
 While my fork lives at `https://github.com/rigeyrigerige/provenance`,
 the code should never exist at `$GOPATH/src/github.com/rigeyrigerige/provenance`.
 Instead, we use `git remote` to add the fork as a new remote for the original repo,
-`$GOPATH/src/github.com/provenance-io/provenance`, and do all the work there.
+`$GOPATH/src/github.com/MonCatCat/provenance`, and do all the work there.
 
 For instance, to create a fork and work on a branch of it, I would:
 
 - Create the fork on github, using the fork button.
-- Go to the original repo checked out locally (i.e. `$GOPATH/src/github.com/provenance-io/provenance`)
+- Go to the original repo checked out locally (i.e. `$GOPATH/src/github.com/MonCatCat/provenance`)
 - `git remote rename origin upstream`
 - `git remote add origin git@github.com:rigeyrigerige/provenance.git`
 
@@ -226,7 +226,7 @@ Branch protection might not be set up in all repos, but those branches should al
 
 ### Development Branch naming
 
-- In a main repo (e.g. [provenance](https://github.com/provenance-io/provenance)), the preferred branch name format is `<user>/<issue #>-<short description>`.
+- In a main repo (e.g. [provenance](https://github.com/MonCatCat/provenance)), the preferred branch name format is `<user>/<issue #>-<short description>`.
 - In forked repos under the `provenance-io` organization (e.g. [provenance-io/cosmos-sdk](https://github.com/provenance-io/cosmos-sdk)), the preferred branch name format is `prov/<user>/<issue #>-<short description>`.
 
 ### PR Targeting
@@ -299,7 +299,7 @@ Summary:
 
 If a `.x` branch does not yet exist for the desired minor version, one must be created now.
 
-- In a main repo (e.g. [provenance](https://github.com/provenance-io/provenance)), the `.x` branch name format is `release/v#.#.x`.
+- In a main repo (e.g. [provenance](https://github.com/MonCatCat/provenance)), the `.x` branch name format is `release/v#.#.x`.
 - In forked repos under the `provenance-io` organization (e.g. [provenance-io/cosmos-sdk](https://github.com/provenance-io/cosmos-sdk)), the `.x` branch name format is `release-pio/v#.#.x`.
 
 1. Start on `main` and make sure you're up-to-date, e.g. `git checkout main && git pull`.
@@ -317,7 +317,7 @@ The `CHANGELOG.md` on the `.x` branch must be updated to reflect the new release
    ```plaintext
    ---
    
-   ## [v1.13.0](https://github.com/provenance-io/provenance/releases/tag/v1.13.0) - 2022-10-04
+   ## [v1.13.0](https://github.com/MonCatCat/provenance/releases/tag/v1.13.0) - 2022-10-04
    ```
    This usually goes immediately under the `## Unreleased` heading to indicate that all unreleased things are now released.
    There should be an empty line both above the `---` and below the new version header.
@@ -328,7 +328,7 @@ The `CHANGELOG.md` on the `.x` branch must be updated to reflect the new release
    ```plaintext
    ### Full Commit History
    
-   * https://github.com/provenance-io/provenance/compare/v1.12.0...v1.13.0
+   * https://github.com/MonCatCat/provenance/compare/v1.12.0...v1.13.0
    ```
    Note that the three dot `...` diff is preferred over the two dot `..` one for these links.
    For release candidates `2` and above, include links from both the previously released version and the previous release candidate.

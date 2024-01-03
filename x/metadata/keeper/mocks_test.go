@@ -8,7 +8,7 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/cosmos/cosmos-sdk/x/authz"
 
-	"github.com/provenance-io/provenance/x/metadata/keeper"
+	"github.com/MonCatCat/provenance/x/metadata/keeper"
 )
 
 // This file houses mock stuff for use in unit tests.

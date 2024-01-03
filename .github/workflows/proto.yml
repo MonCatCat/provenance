@@ -30,7 +30,7 @@ jobs:
       - name: Setup go
         uses: actions/setup-go@v4
         with:
-          go-version: '1.20'
+          go-version: "1.20"
       - name: Setup Job
         id: setup
         run: |
@@ -44,14 +44,14 @@ jobs:
       - uses: bufbuild/buf-lint-action@v1.1.0
         if: always()
         with:
-          input: 'proto'
+          input: "proto"
       - name: provenance breaking
         id: breaking-prov
         if: always()
         uses: bufbuild/buf-breaking-action@v1.1.3
         with:
-          input: 'proto'
-          against: 'https://github.com/provenance-io/provenance.git#branch=${{ steps.setup.outputs.base-branch }},subdir=proto'
+          input: "proto"
+          against: "https://github.com/MonCatCat/provenance.git#branch=${{ steps.setup.outputs.base-branch }},subdir=proto"
       - name: provenance breaking results
         if: always() && steps.breaking-prov.outcome == 'failure'
         run: |
@@ -62,8 +62,8 @@ jobs:
         if: always()
         uses: bufbuild/buf-breaking-action@v1.1.3
         with:
-          input: 'third_party/proto'
-          against: 'https://github.com/provenance-io/provenance.git#branch=${{ steps.setup.outputs.base-branch }},subdir=third_party/proto'
+          input: "third_party/proto"
+          against: "https://github.com/MonCatCat/provenance.git#branch=${{ steps.setup.outputs.base-branch }},subdir=third_party/proto"
       - name: third-party breaking results
         if: always() && steps.breaking-third.outcome == 'failure'
         run: |

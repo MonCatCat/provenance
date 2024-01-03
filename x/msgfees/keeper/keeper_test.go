@@ -16,9 +16,9 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/x/msgfees/types"
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/x/msgfees/types"
 )
 
 type TestSuite struct {

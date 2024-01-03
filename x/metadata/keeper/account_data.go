@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 // ValidateSetAccountData makes sure that the msg signers have proper authority to

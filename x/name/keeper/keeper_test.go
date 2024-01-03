@@ -20,10 +20,10 @@ import (
 
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/provenance-io/provenance/app"
-	attrtypes "github.com/provenance-io/provenance/x/attribute/types"
-	namekeeper "github.com/provenance-io/provenance/x/name/keeper"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonCatCat/provenance/app"
+	attrtypes "github.com/MonCatCat/provenance/x/attribute/types"
+	namekeeper "github.com/MonCatCat/provenance/x/name/keeper"
+	nametypes "github.com/MonCatCat/provenance/x/name/types"
 )
 
 type KeeperTestSuite struct {

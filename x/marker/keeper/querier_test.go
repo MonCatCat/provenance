@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"testing"
 
-	simapp "github.com/provenance-io/provenance/app"
+	simapp "github.com/MonCatCat/provenance/app"
 
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	markerkeeper "github.com/provenance-io/provenance/x/marker/keeper"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
+	markerkeeper "github.com/MonCatCat/provenance/x/marker/keeper"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
 )
 
 func TestNewQuerier(t *testing.T) {

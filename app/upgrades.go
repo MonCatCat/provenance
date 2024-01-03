@@ -18,15 +18,15 @@ import (
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 	transfertypes "github.com/cosmos/ibc-go/v6/modules/apps/transfer/types"
 
-	attributekeeper "github.com/provenance-io/provenance/x/attribute/keeper"
-	attributetypes "github.com/provenance-io/provenance/x/attribute/types"
-	"github.com/provenance-io/provenance/x/exchange"
-	"github.com/provenance-io/provenance/x/hold"
-	ibchookstypes "github.com/provenance-io/provenance/x/ibchooks/types"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	msgfeetypes "github.com/provenance-io/provenance/x/msgfees/types"
-	oracletypes "github.com/provenance-io/provenance/x/oracle/types"
-	triggertypes "github.com/provenance-io/provenance/x/trigger/types"
+	attributekeeper "github.com/MonCatCat/provenance/x/attribute/keeper"
+	attributetypes "github.com/MonCatCat/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/x/exchange"
+	"github.com/MonCatCat/provenance/x/hold"
+	ibchookstypes "github.com/MonCatCat/provenance/x/ibchooks/types"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
+	msgfeetypes "github.com/MonCatCat/provenance/x/msgfees/types"
+	oracletypes "github.com/MonCatCat/provenance/x/oracle/types"
+	triggertypes "github.com/MonCatCat/provenance/x/trigger/types"
 )
 
 // appUpgrade is an internal structure for defining all things for an upgrade.

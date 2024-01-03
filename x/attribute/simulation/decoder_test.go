@@ -8,9 +8,9 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/types/kv"
 
-	"github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/attribute/simulation"
-	"github.com/provenance-io/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/x/attribute/simulation"
+	"github.com/MonCatCat/provenance/x/attribute/types"
 )
 
 func TestDecodeStore(t *testing.T) {

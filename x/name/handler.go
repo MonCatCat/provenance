@@ -5,8 +5,8 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	govtypesv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 
-	"github.com/provenance-io/provenance/x/name/keeper"
-	"github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonCatCat/provenance/x/name/keeper"
+	"github.com/MonCatCat/provenance/x/name/types"
 )
 
 // Returns a handler for name messages.

@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/provenance-io/provenance/internal/antewrapper"
+	"github.com/MonCatCat/provenance/internal/antewrapper"
 )
 
 type TestTerminator struct {

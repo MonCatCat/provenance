@@ -40,9 +40,9 @@ import (
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/provenance-io/provenance/app/params"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	rewardtypes "github.com/provenance-io/provenance/x/reward/types"
+	"github.com/MonCatCat/provenance/app/params"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	rewardtypes "github.com/MonCatCat/provenance/x/reward/types"
 )
 
 // DefaultConsensusParams defines the default Tendermint consensus params used in

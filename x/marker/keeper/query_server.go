@@ -12,7 +12,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/query"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/x/marker/types"
 )
 
 var _ types.QueryServer = Keeper{}

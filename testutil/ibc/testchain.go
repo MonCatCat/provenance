@@ -15,8 +15,8 @@ import (
 	ibctesting "github.com/cosmos/ibc-go/v6/testing"
 	"github.com/cosmos/ibc-go/v6/testing/simapp/helpers"
 
-	provenanceapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/testutil/contracts"
+	provenanceapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/testutil/contracts"
 )
 
 type TestChain struct {

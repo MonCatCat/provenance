@@ -7,7 +7,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/types/kv"
 
-	"github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonCatCat/provenance/x/name/types"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's

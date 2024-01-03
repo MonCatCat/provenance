@@ -10,7 +10,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
 
-	"github.com/provenance-io/provenance/x/msgfees/types"
+	"github.com/MonCatCat/provenance/x/msgfees/types"
 )
 
 const (

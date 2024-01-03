@@ -9,7 +9,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	"github.com/provenance-io/provenance/x/msgfees/types"
+	"github.com/MonCatCat/provenance/x/msgfees/types"
 )
 
 type msgServer struct {

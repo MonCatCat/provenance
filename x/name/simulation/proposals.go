@@ -7,9 +7,9 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	simappparams "github.com/provenance-io/provenance/app/params"
-	"github.com/provenance-io/provenance/x/name/keeper"
-	"github.com/provenance-io/provenance/x/name/types"
+	simappparams "github.com/MonCatCat/provenance/app/params"
+	"github.com/MonCatCat/provenance/x/name/keeper"
+	"github.com/MonCatCat/provenance/x/name/types"
 )
 
 // OpWeightSubmitCreateRootNameProposal app params key for create root name proposal

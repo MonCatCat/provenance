@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/MonCatCat/provenance/x/reward/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/provenance-io/provenance/x/reward/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 )
 

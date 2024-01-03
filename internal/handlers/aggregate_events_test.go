@@ -8,8 +8,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	piohandlers "github.com/provenance-io/provenance/internal/handlers"
+	"github.com/MonCatCat/provenance/internal/antewrapper"
+	piohandlers "github.com/MonCatCat/provenance/internal/handlers"
 )
 
 func TestAggregateEvents(tt *testing.T) {

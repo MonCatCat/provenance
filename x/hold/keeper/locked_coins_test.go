@@ -5,7 +5,7 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	vestingtypes "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
 
-	"github.com/provenance-io/provenance/x/hold"
+	"github.com/MonCatCat/provenance/x/hold"
 )
 
 func (s *TestSuite) TestKeeper_GetLockedCoins() {

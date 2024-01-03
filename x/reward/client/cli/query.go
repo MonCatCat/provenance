@@ -12,7 +12,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/version"
 
-	"github.com/provenance-io/provenance/x/reward/types"
+	"github.com/MonCatCat/provenance/x/reward/types"
 )
 
 var cmdStart = fmt.Sprintf("%s query reward", version.AppName)

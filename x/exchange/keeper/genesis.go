@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/x/exchange"
+	"github.com/MonCatCat/provenance/x/exchange"
 )
 
 // InitGenesis writes the provided genesis state to the state store.

@@ -1,7 +1,7 @@
 syntax = "proto3";
 package provenance.attribute.v1;
 
-option go_package = "github.com/provenance-io/provenance/x/attribute/types";
+option go_package = "github.com/MonCatCat/provenance/x/attribute/types";
 
 option java_package        = "io.provenance.attribute.v1";
 option java_multiple_files = true;

@@ -14,10 +14,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	simappparams "github.com/provenance-io/provenance/app/params"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/x/trigger/keeper"
-	"github.com/provenance-io/provenance/x/trigger/types"
+	simappparams "github.com/MonCatCat/provenance/app/params"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/x/trigger/keeper"
+	"github.com/MonCatCat/provenance/x/trigger/types"
 )
 
 // Simulation operation weights constants

@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	triggertypes "github.com/provenance-io/provenance/x/trigger/types"
+	triggertypes "github.com/MonCatCat/provenance/x/trigger/types"
 )
 
 // SetEventListener Adds the trigger to the event listener store.

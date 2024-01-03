@@ -2,7 +2,7 @@
 
 Interact with Provenance blockchain via `grpcurl`.
 
-The examples below are run on a `localnet` docker nodes. For instructions on running your own `localnet` see the [quick start guide](https://github.com/provenance-io/provenance#quick-start) on the provenance repo.
+The examples below are run on a `localnet` docker nodes. For instructions on running your own `localnet` see the [quick start guide](https://github.com/MonCatCat/provenance#quick-start) on the provenance repo.
 
 <!-- TOC -->
   - [Installing gRPCurl](#installing-grpcurl)
@@ -28,7 +28,7 @@ brew install grpcurl
 To query services we need to manually reference to relevant `.proto` files. Let's go ahead and clone the `provenance` project.
 
 ```shell
-git clone https://github.com/provenance-io/provenance.git
+git clone https://github.com/MonCatCat/provenance.git
 ```
 
 ```shell

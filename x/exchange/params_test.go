@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/provenance-io/provenance/testutil/assertions"
+	"github.com/MonCatCat/provenance/testutil/assertions"
 )
 
 func TestMaxSplit(t *testing.T) {

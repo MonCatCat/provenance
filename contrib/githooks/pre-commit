@@ -31,7 +31,7 @@ if [[ $STAGED_GO_FILES != "" ]]; then
 
     gofmt -w -s $file
     misspell -w $file
-    goimports -w -local github.com/provenance-io/provenance $file
+    goimports -w -local github.com/MonCatCat/provenance $file
     git add $file
 
   done

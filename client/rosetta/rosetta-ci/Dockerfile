@@ -1,7 +1,7 @@
 FROM golang:1.20-bullseye as build
 ARG VERSION
 
-WORKDIR /go/src/github.com/provenance-io/provenance
+WORKDIR /go/src/github.com/MonCatCat/provenance
 ENV GOPRIVATE=github.com/provenance-io
 RUN apt-get update && apt-get upgrade -y
 
@@ -37,7 +37,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/
 
 # Source binaries from the build above
-COPY --from=build /go/src/github.com/provenance-io/provenance/vendor/github.com/CosmWasm/wasmvm/internal/api/libwasmvm.x86_64.so /lib/x86_64-linux-gnu/libwasmvm.x86_64.so
+COPY --from=build /go/src/github.com/MonCatCat/provenance/vendor/github.com/CosmWasm/wasmvm/internal/api/libwasmvm.x86_64.so /lib/x86_64-linux-gnu/libwasmvm.x86_64.so
 COPY --from=build /go/bin/provenanced /usr/bin/provenanced
 COPY --from=build /testrosetta /testrosetta
 

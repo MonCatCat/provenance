@@ -18,8 +18,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/metadata/types"
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 type QueryServerTestSuite struct {

@@ -10,7 +10,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/x/marker/types"
 )
 
 // NewQuerier is the module level router for state queries (using the Legacy Amino Codec)

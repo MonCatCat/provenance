@@ -6,7 +6,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	attrtypes "github.com/provenance-io/provenance/x/attribute/types"
+	attrtypes "github.com/MonCatCat/provenance/x/attribute/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
 	"github.com/stretchr/testify/assert"
@@ -21,10 +21,10 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	govtypesv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 
-	"github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/marker"
-	"github.com/provenance-io/provenance/x/marker/keeper"
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/x/marker"
+	"github.com/MonCatCat/provenance/x/marker/keeper"
+	"github.com/MonCatCat/provenance/x/marker/types"
 )
 
 type HandlerTestSuite struct {

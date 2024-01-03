@@ -25,10 +25,10 @@ import (
 	serverconfig "github.com/cosmos/cosmos-sdk/server/config"
 	sdksim "github.com/cosmos/cosmos-sdk/simapp"
 
-	"github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/cmd/provenanced/cmd"
-	"github.com/provenance-io/provenance/cmd/provenanced/config"
-	"github.com/provenance-io/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/cmd/provenanced/cmd"
+	"github.com/MonCatCat/provenance/cmd/provenanced/config"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
 )
 
 // logIfError logs an error if it's not nil.

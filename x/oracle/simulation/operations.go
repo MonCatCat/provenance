@@ -15,10 +15,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 	channelkeeper "github.com/cosmos/ibc-go/v6/modules/core/04-channel/keeper"
 
-	simappparams "github.com/provenance-io/provenance/app/params"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/x/oracle/keeper"
-	"github.com/provenance-io/provenance/x/oracle/types"
+	simappparams "github.com/MonCatCat/provenance/app/params"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/x/oracle/keeper"
+	"github.com/MonCatCat/provenance/x/oracle/types"
 )
 
 // Simulation operation weights constants

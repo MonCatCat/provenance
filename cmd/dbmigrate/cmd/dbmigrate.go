@@ -15,9 +15,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/server"
 
-	"github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/cmd/dbmigrate/utils"
-	"github.com/provenance-io/provenance/cmd/provenanced/config"
+	"github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/cmd/dbmigrate/utils"
+	"github.com/MonCatCat/provenance/cmd/provenanced/config"
 )
 
 const (

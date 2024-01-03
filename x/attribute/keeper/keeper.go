@@ -16,7 +16,7 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	"github.com/provenance-io/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/x/attribute/types"
 )
 
 // Handler is a name record handler function for use with IterateRecords.

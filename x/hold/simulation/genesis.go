@@ -10,7 +10,7 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	hold "github.com/provenance-io/provenance/x/hold"
+	hold "github.com/MonCatCat/provenance/x/hold"
 )
 
 const HoldAccountHolds = "hold-account-holds"

@@ -13,7 +13,7 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	host "github.com/cosmos/ibc-go/v6/modules/core/24-host"
 
-	"github.com/provenance-io/provenance/x/oracle/types"
+	"github.com/MonCatCat/provenance/x/oracle/types"
 )
 
 type Keeper struct {

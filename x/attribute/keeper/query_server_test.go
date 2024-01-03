@@ -16,11 +16,11 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/testutil"
-	"github.com/provenance-io/provenance/x/attribute/types"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
+	simapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/testutil"
+	"github.com/MonCatCat/provenance/x/attribute/types"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
+	metadatatypes "github.com/MonCatCat/provenance/x/metadata/types"
 )
 
 type QueryServerTestSuite struct {

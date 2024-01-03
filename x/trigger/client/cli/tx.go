@@ -17,7 +17,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/version"
 
-	"github.com/provenance-io/provenance/x/trigger/types"
+	"github.com/MonCatCat/provenance/x/trigger/types"
 )
 
 // NewTxCmd is the top-level command for trigger CLI transactions.

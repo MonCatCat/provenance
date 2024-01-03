@@ -5,7 +5,7 @@ import "gogoproto/gogo.proto";
 import "google/protobuf/timestamp.proto";
 import "cosmos/base/v1beta1/coin.proto";
 
-option go_package          = "github.com/provenance-io/provenance/x/reward/types";
+option go_package          = "github.com/MonCatCat/provenance/x/reward/types";
 option java_package        = "io.provenance.reward.v1";
 option java_multiple_files = true;
 

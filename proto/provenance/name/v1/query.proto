@@ -1,7 +1,7 @@
 syntax = "proto3";
 package provenance.name.v1;
 
-option go_package = "github.com/provenance-io/provenance/x/name/types";
+option go_package = "github.com/MonCatCat/provenance/x/name/types";
 
 option java_package        = "io.provenance.name.v1";
 option java_multiple_files = true;

@@ -9,8 +9,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/provenance-io/provenance/x/exchange"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/x/exchange"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
 )
 
 // sumAssetsAndPrice gets the sum of assets, and the sum of prices of the provided orders.

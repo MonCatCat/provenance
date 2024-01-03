@@ -12,7 +12,7 @@ import (
 	ibctypes "github.com/cosmos/ibc-go/v6/modules/apps/transfer/types"
 	clienttypes "github.com/cosmos/ibc-go/v6/modules/core/02-client/types"
 
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/x/marker/types"
 )
 
 // GetAllMarkerHolders returns an array of all account addresses holding the given denom (and the amount)

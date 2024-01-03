@@ -5,7 +5,7 @@ package provenance.msgfees.v1;
 import "gogoproto/gogo.proto";
 import "cosmos/base/v1beta1/coin.proto";
 
-option go_package = "github.com/provenance-io/provenance/x/msgfees/types";
+option go_package = "github.com/MonCatCat/provenance/x/msgfees/types";
 
 option java_package        = "io.provenance.msgfees.v1";
 option java_multiple_files = true;

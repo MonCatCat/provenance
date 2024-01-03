@@ -9,14 +9,14 @@ import (
 
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
+	simapp "github.com/MonCatCat/provenance/app"
+	attrTypes "github.com/MonCatCat/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/x/marker"
+	"github.com/MonCatCat/provenance/x/marker/keeper"
+	"github.com/MonCatCat/provenance/x/marker/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	simapp "github.com/provenance-io/provenance/app"
-	attrTypes "github.com/provenance-io/provenance/x/attribute/types"
-	"github.com/provenance-io/provenance/x/marker"
-	"github.com/provenance-io/provenance/x/marker/keeper"
-	"github.com/provenance-io/provenance/x/marker/types"
 )
 
 func TestSendRestrictionFn(t *testing.T) {
@@ -812,7 +812,7 @@ func TestMatchAttribute(t *testing.T) {
 }
 
 func TestQuarantineOfRestrictedCoins(t *testing.T) {
-	// Directly tests the bug described in https://github.com/provenance-io/provenance/issues/1626
+	// Directly tests the bug described in https://github.com/MonCatCat/provenance/issues/1626
 
 	app := simapp.Setup(t)
 	ctx := app.BaseApp.NewContext(false, tmproto.Header{})

@@ -5,7 +5,7 @@ import "gogoproto/gogo.proto";
 import "google/api/annotations.proto";
 import "cosmos_proto/cosmos.proto";
 
-option go_package          = "github.com/provenance-io/provenance/x/oracle/types";
+option go_package          = "github.com/MonCatCat/provenance/x/oracle/types";
 option java_package        = "io.provenance.oracle.v1";
 option java_multiple_files = true;
 

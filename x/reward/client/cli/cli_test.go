@@ -19,12 +19,12 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/testutil"
-	rewardcli "github.com/provenance-io/provenance/x/reward/client/cli"
-	"github.com/provenance-io/provenance/x/reward/types"
-	rewardtypes "github.com/provenance-io/provenance/x/reward/types"
+	"github.com/MonCatCat/provenance/internal/antewrapper"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/testutil"
+	rewardcli "github.com/MonCatCat/provenance/x/reward/client/cli"
+	"github.com/MonCatCat/provenance/x/reward/types"
+	rewardtypes "github.com/MonCatCat/provenance/x/reward/types"
 )
 
 type IntegrationTestSuite struct {

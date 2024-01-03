@@ -1,7 +1,7 @@
 syntax = "proto3";
 package provenance.hold.v1;
 
-option go_package = "github.com/provenance-io/provenance/x/hold";
+option go_package = "github.com/MonCatCat/provenance/x/hold";
 
 option java_package        = "io.provenance.hold.v1";
 option java_multiple_files = true;

@@ -3,9 +3,9 @@ package keeper_test
 import (
 	"fmt"
 
+	"github.com/MonCatCat/provenance/x/oracle/keeper"
+	"github.com/MonCatCat/provenance/x/oracle/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/provenance-io/provenance/x/oracle/keeper"
-	"github.com/provenance-io/provenance/x/oracle/types"
 )
 
 func (s *KeeperTestSuite) TestUpdateOracle() {

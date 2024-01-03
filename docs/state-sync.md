@@ -17,7 +17,7 @@ The Provenance 1.10.0+ release comes with Tendermint Core 0.34 which includes su
 ### provenanced binary
 
 The instructions in this document require the `provenanced` binary to be installed on your system. 
-See [docs/Building.md](https://github.com/provenance-io/provenance/blob/main/docs/Building.md) for installation instructions.
+See [docs/Building.md](https://github.com/MonCatCat/provenance/blob/main/docs/Building.md) for installation instructions.
 
 ### data directory
 

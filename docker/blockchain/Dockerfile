@@ -1,7 +1,7 @@
 FROM golang:1.20-bullseye as build
 ARG VERSION
 
-WORKDIR /go/src/github.com/provenance-io/provenance
+WORKDIR /go/src/github.com/MonCatCat/provenance
 
 RUN apt-get update && \
     apt-get upgrade -y && \
@@ -40,7 +40,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/
     
 
-COPY --from=build /go/src/github.com/provenance-io/provenance/vendor/github.com/CosmWasm/wasmvm/internal/api/libwasmvm.*.so /tmp
+COPY --from=build /go/src/github.com/MonCatCat/provenance/vendor/github.com/CosmWasm/wasmvm/internal/api/libwasmvm.*.so /tmp
 COPY --from=build /go/bin/provenanced /usr/bin/provenanced
 
 RUN ARCH=$(uname -m) && \

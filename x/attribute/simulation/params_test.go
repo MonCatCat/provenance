@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/provenance-io/provenance/x/attribute/simulation"
+	"github.com/MonCatCat/provenance/x/attribute/simulation"
 )
 
 func TestParamChanges(t *testing.T) {

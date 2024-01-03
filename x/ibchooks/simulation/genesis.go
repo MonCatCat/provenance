@@ -8,7 +8,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/provenance-io/provenance/x/ibchooks/types"
+	"github.com/MonCatCat/provenance/x/ibchooks/types"
 )
 
 // RandomizedGenState generates a random GenesisState for ibchooks

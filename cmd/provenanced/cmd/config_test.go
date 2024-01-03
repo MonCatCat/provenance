@@ -23,9 +23,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	sdksim "github.com/cosmos/cosmos-sdk/simapp"
 
-	"github.com/provenance-io/provenance/cmd/provenanced/cmd"
-	provconfig "github.com/provenance-io/provenance/cmd/provenanced/config"
-	"github.com/provenance-io/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/cmd/provenanced/cmd"
+	provconfig "github.com/MonCatCat/provenance/cmd/provenanced/config"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
 )
 
 type ConfigTestSuite struct {

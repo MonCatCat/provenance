@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"cosmossdk.io/math"
-	"github.com/provenance-io/provenance/testutil/assertions"
+	"github.com/MonCatCat/provenance/testutil/assertions"
 	"github.com/stretchr/testify/require"
 )
 

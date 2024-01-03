@@ -18,12 +18,12 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/testutil"
-	oraclecli "github.com/provenance-io/provenance/x/oracle/client/cli"
-	"github.com/provenance-io/provenance/x/oracle/types"
-	oracletypes "github.com/provenance-io/provenance/x/oracle/types"
+	"github.com/MonCatCat/provenance/internal/antewrapper"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/testutil"
+	oraclecli "github.com/MonCatCat/provenance/x/oracle/client/cli"
+	"github.com/MonCatCat/provenance/x/oracle/types"
+	oracletypes "github.com/MonCatCat/provenance/x/oracle/types"
 )
 
 type IntegrationTestSuite struct {

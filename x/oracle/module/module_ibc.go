@@ -13,7 +13,7 @@ import (
 	host "github.com/cosmos/ibc-go/v6/modules/core/24-host"
 	ibcexported "github.com/cosmos/ibc-go/v6/modules/core/exported"
 
-	"github.com/provenance-io/provenance/x/oracle/types"
+	"github.com/MonCatCat/provenance/x/oracle/types"
 )
 
 // OnChanOpenInit implements the IBCModule interface

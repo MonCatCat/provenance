@@ -22,12 +22,12 @@ import (
 	bankcli "github.com/cosmos/cosmos-sdk/x/bank/client/cli"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	"github.com/provenance-io/provenance/testutil"
-	"github.com/provenance-io/provenance/x/hold"
-	"github.com/provenance-io/provenance/x/hold/client/cli"
-	holdkeeper "github.com/provenance-io/provenance/x/hold/keeper"
+	"github.com/MonCatCat/provenance/internal/antewrapper"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/testutil"
+	"github.com/MonCatCat/provenance/x/hold"
+	"github.com/MonCatCat/provenance/x/hold/client/cli"
+	holdkeeper "github.com/MonCatCat/provenance/x/hold/keeper"
 )
 
 type IntegrationCLITestSuite struct {

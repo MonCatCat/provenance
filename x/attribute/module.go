@@ -20,11 +20,11 @@ import (
 	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 
-	"github.com/provenance-io/provenance/x/attribute/client/cli"
-	"github.com/provenance-io/provenance/x/attribute/keeper"
-	"github.com/provenance-io/provenance/x/attribute/simulation"
-	"github.com/provenance-io/provenance/x/attribute/types"
-	namekeeper "github.com/provenance-io/provenance/x/name/keeper"
+	"github.com/MonCatCat/provenance/x/attribute/client/cli"
+	"github.com/MonCatCat/provenance/x/attribute/keeper"
+	"github.com/MonCatCat/provenance/x/attribute/simulation"
+	"github.com/MonCatCat/provenance/x/attribute/types"
+	namekeeper "github.com/MonCatCat/provenance/x/name/keeper"
 )
 
 var (

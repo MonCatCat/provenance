@@ -12,7 +12,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/provenance-io/provenance/x/exchange"
+	"github.com/MonCatCat/provenance/x/exchange"
 )
 
 // QueryServer is an alias for a Keeper that implements the exchange.QueryServer interface.

@@ -5,8 +5,8 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	govtypesv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 
-	"github.com/provenance-io/provenance/x/marker/keeper"
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonCatCat/provenance/x/marker/keeper"
+	"github.com/MonCatCat/provenance/x/marker/types"
 )
 
 // NewHandler returns a handler for marker messages.

@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
 
-	pioante "github.com/provenance-io/provenance/internal/antewrapper"
+	pioante "github.com/MonCatCat/provenance/internal/antewrapper"
 )
 
 // These tests are kicked off by TestAnteTestSuite in testutil_test.go

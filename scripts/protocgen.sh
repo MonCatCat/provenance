@@ -38,6 +38,6 @@ buf protoc \
   $(find "$(pwd)/proto" -maxdepth 5 -name '*.proto')
 
 # move proto files to the right places
-cp -r github.com/provenance-io/provenance/* ./
+cp -r github.com/MonCatCat/provenance/* ./
 rm -rf github.com
 

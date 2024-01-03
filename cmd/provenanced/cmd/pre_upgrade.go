@@ -11,7 +11,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	serverconfig "github.com/cosmos/cosmos-sdk/server/config"
 
-	"github.com/provenance-io/provenance/cmd/provenanced/config"
+	"github.com/MonCatCat/provenance/cmd/provenanced/config"
 )
 
 var (

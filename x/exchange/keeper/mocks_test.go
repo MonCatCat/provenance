@@ -10,9 +10,9 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/cosmos/cosmos-sdk/x/quarantine"
 
-	attrtypes "github.com/provenance-io/provenance/x/attribute/types"
-	"github.com/provenance-io/provenance/x/exchange"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
+	attrtypes "github.com/MonCatCat/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/x/exchange"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
 )
 
 // #############################################################################

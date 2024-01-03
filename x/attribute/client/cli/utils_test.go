@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/provenance-io/provenance/x/attribute/client/cli"
+	"github.com/MonCatCat/provenance/x/attribute/client/cli"
 )
 
 func TestAccountDataFlagsUse(t *testing.T) {

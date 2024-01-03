@@ -23,7 +23,7 @@ import (
 	serverconfig "github.com/cosmos/cosmos-sdk/server/config"
 	sdksim "github.com/cosmos/cosmos-sdk/simapp"
 
-	"github.com/provenance-io/provenance/internal/pioconfig"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
 )
 
 type ConfigManagerTestSuite struct {

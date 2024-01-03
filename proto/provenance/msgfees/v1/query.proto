@@ -7,7 +7,7 @@ import "provenance/msgfees/v1/msgfees.proto";
 import "cosmos/base/v1beta1/coin.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
 
-option go_package          = "github.com/provenance-io/provenance/x/msgfees/types";
+option go_package          = "github.com/MonCatCat/provenance/x/msgfees/types";
 option java_package        = "io.provenance.msgfees.v1";
 option java_multiple_files = true;
 

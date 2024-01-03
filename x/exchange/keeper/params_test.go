@@ -1,8 +1,8 @@
 package keeper_test
 
 import (
-	"github.com/provenance-io/provenance/x/exchange"
-	"github.com/provenance-io/provenance/x/exchange/keeper"
+	"github.com/MonCatCat/provenance/x/exchange"
+	"github.com/MonCatCat/provenance/x/exchange/keeper"
 )
 
 func (s *TestSuite) TestKeeper_SetParams() {

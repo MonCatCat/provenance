@@ -19,10 +19,10 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
 
-	"github.com/provenance-io/provenance/x/ibchooks/client/cli"
-	"github.com/provenance-io/provenance/x/ibchooks/keeper"
-	"github.com/provenance-io/provenance/x/ibchooks/simulation"
-	"github.com/provenance-io/provenance/x/ibchooks/types"
+	"github.com/MonCatCat/provenance/x/ibchooks/client/cli"
+	"github.com/MonCatCat/provenance/x/ibchooks/keeper"
+	"github.com/MonCatCat/provenance/x/ibchooks/simulation"
+	"github.com/MonCatCat/provenance/x/ibchooks/types"
 )
 
 var (

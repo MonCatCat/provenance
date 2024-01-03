@@ -14,7 +14,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/version"
 	govtypesv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 
-	"github.com/provenance-io/provenance/x/msgfees/types"
+	"github.com/MonCatCat/provenance/x/msgfees/types"
 )
 
 // Flag names and values

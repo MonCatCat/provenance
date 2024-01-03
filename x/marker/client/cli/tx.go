@@ -29,8 +29,8 @@ import (
 	clienttypes "github.com/cosmos/ibc-go/v6/modules/core/02-client/types"
 	channelutils "github.com/cosmos/ibc-go/v6/modules/core/04-channel/client/utils"
 
-	attrcli "github.com/provenance-io/provenance/x/attribute/client/cli"
-	"github.com/provenance-io/provenance/x/marker/types"
+	attrcli "github.com/MonCatCat/provenance/x/attribute/client/cli"
+	"github.com/MonCatCat/provenance/x/marker/types"
 )
 
 const (

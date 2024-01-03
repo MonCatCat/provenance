@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	"github.com/provenance-io/provenance/x/oracle/keeper"
+	"github.com/MonCatCat/provenance/x/oracle/keeper"
 )
 
 func (s *KeeperTestSuite) TestQueryOracle() {

@@ -23,10 +23,10 @@ import (
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	channelkeeper "github.com/cosmos/ibc-go/v6/modules/core/04-channel/keeper"
 
-	"github.com/provenance-io/provenance/x/oracle/client/cli"
-	"github.com/provenance-io/provenance/x/oracle/keeper"
-	"github.com/provenance-io/provenance/x/oracle/simulation"
-	"github.com/provenance-io/provenance/x/oracle/types"
+	"github.com/MonCatCat/provenance/x/oracle/client/cli"
+	"github.com/MonCatCat/provenance/x/oracle/keeper"
+	"github.com/MonCatCat/provenance/x/oracle/simulation"
+	"github.com/MonCatCat/provenance/x/oracle/types"
 )
 
 var (

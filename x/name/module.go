@@ -20,10 +20,10 @@ import (
 	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 
-	"github.com/provenance-io/provenance/x/name/client/cli"
-	"github.com/provenance-io/provenance/x/name/keeper"
-	"github.com/provenance-io/provenance/x/name/simulation"
-	"github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonCatCat/provenance/x/name/client/cli"
+	"github.com/MonCatCat/provenance/x/name/keeper"
+	"github.com/MonCatCat/provenance/x/name/simulation"
+	"github.com/MonCatCat/provenance/x/name/types"
 )
 
 // type check to ensure the interface is properly implemented

@@ -16,11 +16,11 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	piosimapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/internal/pioconfig"
-	attrtypes "github.com/provenance-io/provenance/x/attribute/types"
-	"github.com/provenance-io/provenance/x/marker/types"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
+	piosimapp "github.com/MonCatCat/provenance/app"
+	"github.com/MonCatCat/provenance/internal/pioconfig"
+	attrtypes "github.com/MonCatCat/provenance/x/attribute/types"
+	"github.com/MonCatCat/provenance/x/marker/types"
+	markertypes "github.com/MonCatCat/provenance/x/marker/types"
 )
 
 func TestBankSend(tt *testing.T) {

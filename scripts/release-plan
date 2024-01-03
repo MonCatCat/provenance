@@ -15,7 +15,7 @@ for arch in ${arches}; do
 	fi
 
 	sum=$(grep "provenance-${name}-${version}" "${sums}" | cut -d' ' -f1)
-    url="https://github.com/provenance-io/provenance/releases/download/${version}/provenance-${name}-${version}.zip?checksum=sha256:${sum}"
+    url="https://github.com/MonCatCat/provenance/releases/download/${version}/provenance-${name}-${version}.zip?checksum=sha256:${sum}"
 	a+=( "$(printf '"%s":"%s"' "${arch}" "${url}")" )
 done
 

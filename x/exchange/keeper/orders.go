@@ -11,7 +11,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 
-	"github.com/provenance-io/provenance/x/exchange"
+	"github.com/MonCatCat/provenance/x/exchange"
 )
 
 // getLastOrderID gets the id of the last order created.
